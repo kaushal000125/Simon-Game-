@@ -1,0 +1,53 @@
+body {
+  text-align: center;
+  background-color: #7c9473;
+}
+
+#level-title {
+  font-family: 'New Tegomin', serif;;
+  font-size: 3rem;
+  margin:  2.5%;
+  color: #28527a;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 20px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid #413c69;
+  border-radius: 10%;
+}
+
+.game-over {
+  background-color: #ff5c33;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: #ff5c33;
+}
+
+.green {
+  background-color: #47d147;
+}
+
+.blue {
+  background-color: #3385ff;
+}
+
+.yellow {
+  background-color:#ffff66;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: #413c69;
+}
